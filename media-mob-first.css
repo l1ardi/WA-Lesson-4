@@ -121,14 +121,14 @@
         flex-basis: 25%;
         flex-grow: 0;
     }
-    
-    .fourth .colored {
+
+    .fourth .colored:not(:last-child) {
         flex-basis: 25%;
         flex-grow: 0;
     }
 
     .fourth .colored:last-child {
-        flex-grow: 1;
+        flex-basis: 50%;
     }
 
     .fifth {
